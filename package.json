@@ -1,0 +1,23 @@
+{
+  "name": "static-server",
+  "version": "1.0.0",
+  "description": "\"Static server that handles file storage. Solution to many hosting problems related to serving files and CORs conflicts\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Nadeau",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.11",
+    "serve": "^14.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
